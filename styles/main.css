@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(90deg, rgba(39,42,55,0.97) 35%, rgba(39,42,55,0.7) 97%),
+    url("../images/forest.jpg") no-repeat;
+    background-position: center;
+
+}
+.navbar{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+a{
+    text-decoration: none;
+    color: #5A606F;
+    margin-left: 20%;
+}
+.MenuInfo{
+    width: 40%;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.MenuInfo .Anywhere{
+    margin-right: 10px;
+    color: #EAEBEC;
+}
+.blueSimbol{
+    width: 25px;
+    height: 25px;
+    background: #2778C3;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.container{
+    height: calc(100vh - 80px);
+    width: 100vw;
+    display: flex;
+}
+
+.form{
+    margin: 50px 40px;
+    width: 500px;
+    height: 90%;
+}
+.form > h3{
+    color: #828C9B;
+    padding: 5px 0;
+}
+
+.form > p {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    color: #828C9B;
+}
+.form > p > a{
+    margin: 0;
+    color: #2778C3;
+    margin-left: 5px;
+}
+.createAccount{
+    display: flex;
+    align-items: center;
+}
+.createAccount h1{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 15px 0px;
+}
+.createAccount > h1 > div{
+    margin-top: 15px;
+    margin-left: 2px;
+}
+
+.blueSimbol2{
+    width: 10px;
+    height: 10px;
+    background: #2778C3;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+
+.input{
+    width: 100%;
+    background-color: #323644;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.input > label{
+    color: #828C9B;
+    font-size: 12px;
+}
+
+.input input{
+    width: 80%;
+    background-color: transparent;
+    border: none;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.input input:focus, .input input:hover{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    color: white;
+}
+
+.input:hover{
+    border: 2px #2778C3 solid;
+}
+
+form .buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form .buttons button{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    padding: 20px 35px;
+    border-radius: 25px;
+    background-color: #323644;
+    color: white;
+    
+}
+form .buttons button:first-child{
+    margin-right: 20px;
+}
+form .buttons button:hover{
+    background-color: #2778C3;
+}
