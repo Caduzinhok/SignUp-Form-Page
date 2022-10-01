@@ -1,8 +1,9 @@
 # Sign Up Form
-<p>The project is base on <a href = "https://dribbble.com/shots/16753965-Login-Sign-up-Dark-Mode-AW-Universal-Page/">This Design</a></p>
-<p>I modified the layout to make it more like my ideas</p>
 
-## Hope You Enjoy :relaxed:
+<p>The project is based on <a href = "https://dribbble.com/shots/16753965-Login-Sign-up-Dark-Mode-AW-Universal-Page/">This Design</a></p>
+
+<p>I've modified the layout to make it more like my ideas.</p>
 
 ### This is the Final Project Build
-<img src="./images/Projeto.png" alt="">
+
+<img src="./assets/images/project.png" alt="">
